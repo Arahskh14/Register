@@ -13,22 +13,48 @@
         android:theme="@style/Theme.Register"
         tools:targetApi="31">
         <activity
-            android:name=".Welcoming"
-            android:exported="false" />
-        <activity
-            android:name=".Login"
-            android:exported="false" />
-        <activity
-            android:name=".Register"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".login.Splasshscreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".kategori.Categorise"
+            android:exported="false" />
+        <activity
+            android:name=".kategori.Maps"
+            android:exported="false" />
+        <activity
+            android:name=".kategori.Kategori1"
+            android:exported="false" />
+        <activity
+            android:name=".newusername.Notifikasisukses"
+            android:exported="false" />
+        <activity
+            android:name=".newusername.usernamenew"
+            android:exported="false" />
+        <activity
+            android:name=".newusername.Otp"
+            android:exported="false" />
+        <activity
+            android:name=".newusername.Notificasionriset"
+            android:exported="false" />
+        <activity
+            android:name=".newusername.Forgetpassword"
+            android:exported="false" />
+        <activity
+            android:name=".login.Login"
+            android:exported="false" />
+        <activity
+            android:name=".register.Register"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 
