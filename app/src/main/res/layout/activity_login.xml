@@ -107,7 +107,8 @@
             android:textAlignment="textEnd"
             android:layout_marginEnd="32dp"
             android:textColor="@color/abuu"
-            android:layout_marginTop="8dp"/>
+            android:layout_marginTop="8dp"
+            android:clickable="true"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -120,14 +121,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/google"/>
+                android:src="@drawable/google"
+                android:clickable="true"
+                android:onClick="onImageClick" />
 
             <ImageView
                 android:id="@+id/image4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/facebook"/>
+                android:src="@drawable/facebook"
+                android:clickable="true"
+                android:onClick="onImageClick" />
         </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatButton

@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/home"
+        android:id="@+id/homeFragment"
         android:icon="@drawable/empat"
         android:title=""
         android:drawablePadding="8dp"/>
     <item
-        android:id="@+id/menu"
+        android:id="@+id/categorisFragment"
         android:title=""
         android:drawablePadding="8dp"
         android:icon="@drawable/tiga"/>
