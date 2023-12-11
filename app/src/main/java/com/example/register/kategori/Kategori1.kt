@@ -14,7 +14,7 @@ class Kategori1 : AppCompatActivity() {
         val button: Button = findViewById(R.id.button)
 
         button.setOnClickListener {
-            val intent = Intent(this@Kategori1, Categorise::class.java)
+            val intent = Intent(this@Kategori1, CategorisFragment::class.java)
             startActivity(intent)
         }
     }
